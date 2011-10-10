@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hanging paragraph CSS style, for APA-style references</title>
+  <meta name="description" content="A quick template that will allow anyone to copy and apply the CSS needed to hang references in their web publications using correct APA style syntax.">
+  <meta name="author" content="Robert Valencia">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="apa-reference-styles.css">
+  <style type="text/css" media="all">
+    /*  
+    Generic styling for sample, this should not be copied to your design/template.
+    */
+    #main{width: 42em;font: 1em/1.4 "Cambria",Georgia, sans-serif;}
+    h2{font-size: 1.5em;font-weight: bold;margin: .83em 0;}
+    .ref-apa h2 span, .ref-apa dt span {font-size: .76em;font-weight: normal;opacity:.3;}
+  </style>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>CSS for creating a hanging indent <em>—APA style—</em> References list</h1>
+    </header>
+
+    <div id="main" role="main">
+      <p>The following is a quick template that will allow anyone to copy and apply the CSS needed to hang references in their web publications using correct APA style syntax. You may format your references in whatever semantic structure you are using: as list items within an ordered or unordered list, as definition descriptions within a defintion list, or even as paragraphs within a division element.</p>
+      <p>To apply:<br />
+        1. Paste the following code into your CSS file:  the <code>class="ref-apa"</code> css class to the wrapping element in your references, whether it be a <code>div</code>, an <code>ol</code>, <code>ul</code> or <code>dl</code>.<br />
+        <strong>update:</strong> As an alternative to <code>.ref-apa</code>, the following class now work interchangeably too: <code>.refapa</code>, <code>.apa</code>, <code>.aparef</code>, and <code>.apa-ref</code>
+        </p>
+      
+      <div class="ref-apa">
+        <h2>References <span>div style</span></h2>
+        <p>Herbst-Damn, K. L., & Kulik, J. A. (2005). Volunteer support, marital status, and the survival times of terminally ill patients. <em>Health Psychology, 24</em>(1), 225-229. doi:10.1037/0278-6133.24.2.225</p>
+        <p>Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M., Soderlund, L., & Brizee, A. (2010, May 5). <em>General format.</em> Retrieved from http://owl.english.purdue.edu/owl/resource/560/01/</p>
+        <p>Wegener, D. T., Kerr, N. L., Fleming, M. A., & Petty, R. E. (2000). Flexible corrections of juror judgments: Implications for jury instructions. <em>Psychology, Public Policy, & Law, 6</em>, 629-654.</p>
+        <p>Wegener, D. T., & Petty, R. E. (1994). Mood management across affective states: The hedonic contingency hypothesis. <em>Journal of Personality & Social Psychology, 66</em>, 1034-1048.</p>
+      </div><!-- .ref-apa -->
+        <ul class="ref-apa">
+          <h2>References <span>ul style</span></h2>
+          <li>Herbst-Damn, K. L., & Kulik, J. A. (2005). Volunteer support, marital status, and the survival times of terminally ill patients. <em>Health Psychology, 24</em>(1), 225-229. doi:10.1037/0278-6133.24.2.225</li>
+          <li>Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M., Soderlund, L., & Brizee, A. (2010, May 5). <em>General format.</em> Retrieved from http://owl.english.purdue.edu/owl/resource/560/01/</li>
+          <li>Wegener, D. T., & Petty, R. E. (1994). Mood management across affective states: The hedonic contingency hypothesis. <em>Journal of Personality & Social Psychology, 66</em>, 1034-1048.</li>
+          <li>Wegener, D. T., Kerr, N. L., Fleming, M. A., & Petty, R. E. (2000). Flexible corrections of juror judgments: Implications for jury instructions. <em>Psychology, Public Policy, & Law, 6</em>, 629-654.</li>
+        </ul>
+        <ol class="ref-apa">
+          <h2>References <span>ol style</span></h2>
+          <li>Herbst-Damn, K. L., & Kulik, J. A. (2005). Volunteer support, marital status, and the survival times of terminally ill patients. <em>Health Psychology, 24</em>(1), 225-229. doi:10.1037/0278-6133.24.2.225</li>
+          <li>Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M., Soderlund, L., & Brizee, A. (2010, May 5). <em>General format.</em> Retrieved from http://owl.english.purdue.edu/owl/resource/560/01/</li>
+          <li>Wegener, D. T., & Petty, R. E. (1994). Mood management across affective states: The hedonic contingency hypothesis. <em>Journal of Personality & Social Psychology, 66</em>, 1034-1048.</li>
+          <li>Wegener, D. T., Kerr, N. L., Fleming, M. A., & Petty, R. E. (2000). Flexible corrections of juror judgments: Implications for jury instructions. <em>Psychology, Public Policy, & Law, 6</em>, 629-654.</li>
+        </ol>
+        <dl class="ref-apa">
+          <dt>References <span>definition list style</span></dt>
+          <dd>Herbst-Damn, K. L., & Kulik, J. A. (2005). Volunteer support, marital status, and the survival times of terminally ill patients. <em>Health Psychology, 24</em>(1), 225-229. doi:10.1037/0278-6133.24.2.225</dd>
+          <dd>Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M., Soderlund, L., & Brizee, A. (2010, May 5). <em>General format.</em> Retrieved from http://owl.english.purdue.edu/owl/resource/560/01/</dd>
+          <dd>Wegener, D. T., & Petty, R. E. (1994). Mood management across affective states: The hedonic contingency hypothesis. <em>Journal of Personality & Social Psychology, 66</em>, 1034-1048.</dd>
+          <dd>Wegener, D. T., Kerr, N. L., Fleming, M. A., & Petty, R. E. (2000). Flexible corrections of juror judgments: Implications for jury instructions. <em>Psychology, Public Policy, & Law, 6</em>, 629-654.</dd>
+        </dl>
+    </div>
+
+    <footer>
+      
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/*    
+CSS for APA-Style Reference lists,
+COPY THE FOLLOWING STYLES INTO YOUR CSS:
+*/
+
+/*
+Sets any enclosing element (div/ul/ol/dl) with or within the following classes flush left
+*/
+.apa,     .apa ul,     .apa ol,     .apa dl,
+.ref-apa, .ref-apa ul, .ref-apa ol, .ref-apa dl,
+.apa-ref, .apa-ref ul, .apa-ref ol, .apa-ref dl,
+.refapa,  .refapa ul,  .refapa ol,  .refapa dl,
+.aparef,  .aparef ul,  .aparef ol,  .aparef dl{
+padding-left: 0;margin-left: 0;       
+}
+
+/*
+Disables bullets or numbers from appearing on references that use list item (li) elements 
+*/
+.apa li,
+.ref-apa li,
+.refapa li,
+.apa-ref li,
+.aparef li{
+list-style-type: none;
+}
+
+/*
+Creates the hanging indent and the ‘double spacing’ between references.
+*/
+.apa p,     .apa li,     .apa dd,
+.ref-apa p, .ref-apa li, .ref-apa dd,
+.refapa p,  .refapa li,  .refapa dd,
+.apa-ref p, .apa-ref li, .apa-ref dd,
+.aparef p,  .aparef li,  .aparef dd{
+margin-left:  .5in; /*this controls how much to indent the lines in your reference.  */
+text-indent: -.5in; /*to start the first line flush to the left, express in negative here whatever distance you placed in the margin-left setting above. */
+margin-left:   2em; /*this controls how much to indent the lines in your reference.  */
+text-indent:  -2em; /*to start the first line flush to the left, express in negative here whatever distance you placed in the margin-left setting above. */
+
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+
+/*
+The following items are OPTIONAL - Please READ:
+
+DEFINITION TERM styling:
+This is usually not needed for blogs 
+or if you’re already styling your <dt> tags elsewhere.
+
+Tip: Style this element by applying what you are using for your <h2> tags 
+(or whatever style you feel best represents this hierarchy) 
+elsewhere in your document,
+some generic initial settings are provided below: 
+*/
+.ref-apa dt{
+font-size: 1.5em;
+font-weight: bold;
+margin: .83em 0;
+}
+/*    .ref-apa dd{margin-left: 0;}*/
