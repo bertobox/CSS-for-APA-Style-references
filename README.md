@@ -1,3 +1,7 @@
+---
+Title: Make your website/blog references look like an APA Style Reference List
+---
+
 <style type="text/css" media="screen">
 .apa,.apa ul,.apa ol,.apa dl,.ref-apa,.ref-apa ul,.ref-apa ol,.ref-apa dl,.apa-ref,.apa-ref ul,.apa-ref ol,.apa-ref dl,.refapa,.refapa ul,.refapa ol,.refapa dl,.aparef,.aparef ul,.aparef ol,.aparef dl{padding-left:0;margin-left:0;}
 .apa li,.ref-apa li,.refapa li,.apa-ref li,.aparef li{list-style-type:none;}
@@ -6,11 +10,7 @@
 
 So you’ve written a piece in APA Style and want to show it off online. **The problem:** When you list your references at the bottom, they don’t show *hanging-indent* style, the way APA specifies.
 
-In two simple steps I’ll show you how to apply that **hanging-indent** to reference lists in your blog entry or web page.
-
-✂------✂------✂------✂------✂------✂------✂------✂------✂------✂------
-
-This works with reference lists formatted as paragraphs as well as lists \[[ordered][1], [unordered][2], or [definition][3]\] in HTML or [Markdown][][^1].
+In two simple steps I’ll show you how to apply that **hanging-indent** to reference lists in your blog entry or web page. This works with reference lists formatted as paragraphs as well as lists \[[ordered][1], [unordered][2], or [definition][3]\] in HTML or [Markdown][][^1].
 
 ##Step 1: How to set it up
 
