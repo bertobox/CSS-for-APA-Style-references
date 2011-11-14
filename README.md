@@ -1,6 +1,4 @@
----
-Title: Make your website/blog references look like an APA Style Reference List
----
+# Make your website/blog references look like an APA Style Reference List
 
 <style type="text/css" media="screen">
 .apa,.apa ul,.apa ol,.apa dl,.ref-apa,.ref-apa ul,.ref-apa ol,.ref-apa dl,.apa-ref,.apa-ref ul,.apa-ref ol,.apa-ref dl,.refapa,.refapa ul,.refapa ol,.refapa dl,.aparef,.aparef ul,.aparef ol,.aparef dl{padding-left:0;margin-left:0;}
@@ -42,10 +40,8 @@ Wrap your references inside a `div` element and add the `apa-ref`[^2] value to i
 
 That’s all! Either of the two previous formats will output the following:
 
-<div class="ref-apa" markdown="1">
-##References
-Herbst-Damn, K. L., & Kulik, J. A. (2005). Volunteer support, marital status, and the survival times of terminally ill patients. *Health Psychology, 24*(1), 225-229. doi:10.1037/0278-6133.24.2.225
-</div>
+<h2>References</h2>
+<p style="margin-left:2em;text-indent:-2em;margin-top:1em;margin-bottom:1em;">Herbst-Damn, K. L., &amp; Kulik, J. A. (2005). Volunteer support, marital status, and the survival times of terminally ill patients. <em>Health Psychology, 24</em>(1), 225-229. doi:10.1037/0278-6133.24.2.225</p>
   
 ---
 
@@ -77,12 +73,12 @@ or this (if using HTML):
 
 and you’ll get this:
 
-<div class="ref-apa" markdown="1">
-##References
-1.  Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M., Soderlund, L., & Brizee, A. (2010, May 5). _General format_. Retrieved from http://owl.english.purdue.edu/owl/resource/560/01/
-2.  Wegener, D. T., & Petty, R. E. (1994). Mood management across affective states: The hedonic contingency hypothesis. _Journal of Personality & Social Psychology, 66_, 1034-1048.
-3.  Wegener, D. T., Kerr, N. L., Fleming, M. A., & Petty, R. E. (2000). Flexible corrections of juror judgments: Implications for jury instructions. _Psychology, Public Policy, & Law, 6_, 629-654.
-</div>
+<h2>References</h2>
+<ol style="padding-left:0;margin-left:0;">
+<li style="margin-left:2em;text-indent:-2em;margin-top:1em;margin-bottom:1em;list-style-type:none;">Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M., Soderlund, L., &amp; Brizee, A. (2010, May 5). <em>General format</em>. Retrieved from http://owl.english.purdue.edu/owl/resource/560/01/</li>
+<li style="margin-left:2em;text-indent:-2em;margin-top:1em;margin-bottom:1em;list-style-type:none;">Wegener, D. T., &amp; Petty, R. E. (1994). Mood management across affective states: The hedonic contingency hypothesis. <em>Journal of Personality &amp; Social Psychology, 66</em>, 1034-1048.</li>
+<li style="margin-left:2em;text-indent:-2em;margin-top:1em;margin-bottom:1em;list-style-type:none;">Wegener, D. T., Kerr, N. L., Fleming, M. A., &amp; Petty, R. E. (2000). Flexible corrections of juror judgments: Implications for jury instructions. <em>Psychology, Public Policy, &amp; Law, 6</em>, 629-654.</li>
+</ol>
 
 ---
 <h3 id="unordered_list_reference_sample">Unordered list reference sample</h3>
@@ -109,12 +105,12 @@ or this (if using HTML):
 
 and you’ll get this:
 
-<div class="ref-apa" markdown="1">
-##References
-*  Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M., Soderlund, L., & Brizee, A. (2010, May 5). _General format_. Retrieved from http://owl.english.purdue.edu/owl/resource/560/01/
-*  Wegener, D. T., & Petty, R. E. (1994). Mood management across affective states: The hedonic contingency hypothesis. _Journal of Personality & Social Psychology, 66_, 1034-1048.
-*  Wegener, D. T., Kerr, N. L., Fleming, M. A., & Petty, R. E. (2000). Flexible corrections of juror judgments: Implications for jury instructions. _Psychology, Public Policy, & Law, 6_, 629-654.
-</div>
+<h2>References</h2>
+<ul style="padding-left:0;margin-left:0;">
+<li style="margin-left:2em;text-indent:-2em;margin-top:1em;margin-bottom:1em;list-style-type:none;">Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M., Soderlund, L., &amp; Brizee, A. (2010, May 5). <em>General format</em>. Retrieved from http://owl.english.purdue.edu/owl/resource/560/01/</li>
+<li style="margin-left:2em;text-indent:-2em;margin-top:1em;margin-bottom:1em;list-style-type:none;">Wegener, D. T., &amp; Petty, R. E. (1994). Mood management across affective states: The hedonic contingency hypothesis. <em>Journal of Personality &amp; Social Psychology, 66</em>, 1034-1048.</li>
+<li style="margin-left:2em;text-indent:-2em;margin-top:1em;margin-bottom:1em;list-style-type:none;">Wegener, D. T., Kerr, N. L., Fleming, M. A., &amp; Petty, R. E. (2000). Flexible corrections of juror judgments: Implications for jury instructions. <em>Psychology, Public Policy, &amp; Law, 6</em>, 629-654.</li>
+</ul>
 
 ---
 
@@ -142,12 +138,12 @@ or this (if using HTML):
 
 and you’ll get this:
 
-<div class="ref-apa" markdown="1">
-References
-:  Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M., Soderlund, L., & Brizee, A. (2010, May 5). _General format_. Retrieved from http://owl.english.purdue.edu/owl/resource/560/01/
-:  Wegener, D. T., & Petty, R. E. (1994). Mood management across affective states: The hedonic contingency hypothesis. _Journal of Personality & Social Psychology, 66_, 1034-1048.
-:  Wegener, D. T., Kerr, N. L., Fleming, M. A., & Petty, R. E. (2000). Flexible corrections of juror judgments: Implications for jury instructions. _Psychology, Public Policy, & Law, 6_, 629-654.
-</div>
+<dl style="padding-left:0;margin-left:0;">
+  <dt>References</dt>
+  <dd style="margin-left:2em;text-indent:-2em;margin-top:1em;margin-bottom:1em;">Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M., Soderlund, L., &amp; Brizee, A. (2010, May 5). <em>General format</em>. Retrieved from http://owl.english.purdue.edu/owl/resource/560/01/</dd>
+  <dd style="margin-left:2em;text-indent:-2em;margin-top:1em;margin-bottom:1em;">Wegener, D. T., &amp; Petty, R. E. (1994). Mood management across affective states: The hedonic contingency hypothesis. <em>Journal of Personality &amp; Social Psychology, 66</em>, 1034-1048.</dd>
+  <dd style="margin-left:2em;text-indent:-2em;margin-top:1em;margin-bottom:1em;">Wegener, D. T., Kerr, N. L., Fleming, M. A., &amp; Petty, R. E. (2000). Flexible corrections of juror judgments: Implications for jury instructions. <em>Psychology, Public Policy, &amp; Law, 6</em>, 629-654.</dd>
+</dl>
 
 ---
 
